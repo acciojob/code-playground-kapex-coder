@@ -22,11 +22,11 @@ const App = () => {
         <nav>
           <ol>
             <li><NavLink to="/">PlayGround</NavLink></li>
-            <li><NavLink to="/login">Log In</NavLink></li>
+            <li><NavLink to="/login">Login</NavLink></li>
           </ol>
         </nav>
       </header>
-      <div >
+      <div>
         <Routes>
           <Route path="/login" element={<Login handleAuthentication={handleAuthentication} isAuthenticated={isAuthenticated} />} />
           <Route
