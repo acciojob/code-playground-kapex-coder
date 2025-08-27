@@ -22,7 +22,7 @@ const App = () => {
         <nav>
           <ol>
             <li><NavLink to="/">PlayGround</NavLink></li>
-            <li><NavLink to="/login">Log In</NavLink></li>
+            <li><NavLink to="/login">Login</NavLink></li>
           </ol>
         </nav>
       </header>
