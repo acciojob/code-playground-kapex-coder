@@ -33,7 +33,7 @@ const App = () => {
             path="/"
             element={
               <PrivateRoute isAuthenticated={isAuthenticated}>
-                <CodePlayground />
+                <CodePlayground handleAuthentication={handleAuthentication} isAuthenticated={isAuthenticated} />
               </PrivateRoute>
             }
           />
