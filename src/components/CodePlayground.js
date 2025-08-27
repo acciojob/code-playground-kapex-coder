@@ -7,7 +7,7 @@ const CodePlayground = ({ handleAuthentication, isAuthenticated }) => {
                 Hi Welcome to Code PlayGround
             </div>
             <button onClick={handleAuthentication}>
-                {isAuthenticated ? 'Logout' : 'Login'}
+                Log Out
             </button>
         </>
     )
