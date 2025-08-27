@@ -1,14 +1,11 @@
 import React from "react";
 
-const CodePlayground = ({ handleAuthentication, isAuthenticated }) => {
+const CodePlayground = ({ isAuthenticated }) => {
     return (
         <>
             <div>
                 Hi Welcome to Code PlayGround
             </div>
-            <button onClick={handleAuthentication}>
-                Log Out
-            </button>
         </>
     )
 }
