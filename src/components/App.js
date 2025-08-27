@@ -14,7 +14,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className="main-container">
       <header>
         <h1>
           {isAuthenticated ? "Logged in, Now you can enter Playground" : "You are not authenticated, Please login first"}
@@ -26,7 +26,7 @@ const App = () => {
           </ol>
         </nav>
       </header>
-      <div className="main-container">
+      <div >
         <Routes>
           <Route path="/login" element={<Login handleAuthentication={handleAuthentication} isAuthenticated={isAuthenticated} />} />
           <Route

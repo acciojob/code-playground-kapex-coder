@@ -3,9 +3,9 @@ import React from "react";
 const Login = ({ handleAuthentication, isAuthenticated }) => {
     return (
         <>
-            <p>Login</p>
+            <p>Log In</p>
             <button onClick={handleAuthentication}>
-                {isAuthenticated ? 'Logout' : 'Login'}
+                {isAuthenticated ? 'Log Out' : 'Log In'}
             </button>
         </>
     );
