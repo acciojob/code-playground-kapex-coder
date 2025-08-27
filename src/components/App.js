@@ -17,12 +17,12 @@ const App = () => {
     <div className="main-container">
       <header>
         <h1>
-          {isAuthenticated ? "Logged in, Now you can enter Playground" : "You are not authenticated, Please login first"}
+          {isAuthenticated ? "Logged in, Now you can enter Playground" : "You are not authenticated, Please Log In first"}
         </h1>
         <nav>
           <ol>
             <li><NavLink to="/">PlayGround</NavLink></li>
-            <li><NavLink to="/login">Login</NavLink></li>
+            <li><NavLink to="/login">Log In</NavLink></li>
           </ol>
         </nav>
       </header>
