@@ -17,7 +17,7 @@ const App = () => {
     <div className="main-container">
       <header>
         <h1>
-          {isAuthenticated ? "Logged in, Now you can enter Playground" : "You are not authenticated, Please Log In first"}
+          {isAuthenticated ? "Logged in, Now you can enter Playground" : "You are not authenticated, Please login first"}
         </h1>
         <nav>
           <ol>
